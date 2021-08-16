@@ -21,11 +21,11 @@ const initialValue={
 }
 
 const AddUser = () => {
-    const classes = useStyles();
     const [user,setUser]=useState(initialValue)
+    const {name,username,email,phone}=user
+    const classes = useStyles();
     const history=useHistory()
 
-    const {name,username,email,phone}=user
 
     const onValueChange=(e)=>{
         console.log(e.target.value);
@@ -33,7 +33,8 @@ const AddUser = () => {
         console.log(user)
     }
 
-    const addUserDetails=async ()=>{
+    const addUserDetails=async()=>{
+        console.log("Button running")
         await addUser(user)
         history.push('./all');
     }

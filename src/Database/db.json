@@ -1,32 +1,25 @@
 {
   "users": [
     {
-      "name": "MS Dhoni",
-      "username": "dhoni",
+      "name": "MS Dhoni great",
+      "username": "dhonims",
       "email": "msdhoni@gmail.com",
-      "phone": "4563214530",
+      "phone": "4563214568687",
       "id": 1
-    },
-    {
-      "name": "KL Rahul",
-      "username": "klrahul",
-      "email": "rahul@gmail.com",
-      "phone": "74589658743",
-      "id": 2
     },
     {
       "name": "Virat Kohli",
       "username": "vkohli",
       "email": "vkohli@gmail.com",
       "phone": "89889890070",
-      "id": 4
+      "id": 2
     },
     {
-      "name": "Suresh Raina",
-      "username": "raina",
-      "email": "sraina@gmail.com",
-      "phone": "918791040701",
-      "id": 5
+      "name": "Sanidhya Taparia",
+      "username": "admin",
+      "email": "youcant616@gmail.com",
+      "phone": "4563214568687",
+      "id": 3
     }
   ]
 }
